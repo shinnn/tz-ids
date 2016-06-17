@@ -1,0 +1,41 @@
+{
+  "name": "tz-ids",
+  "description": "An array of time zone IDs",
+  "keywords": [
+    "json",
+    "array",
+    "tz",
+    "time",
+    "zone",
+    "zones",
+    "timezone",
+    "timezones",
+    "list",
+    "data",
+    "database",
+    "iana",
+    "id",
+    "identifier",
+    "identifiers",
+    "alphabetical"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/tz-ids",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/tz-ids.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
