@@ -1,4 +1,4 @@
-'use strong';
+'use strict';
 
 const getTzIds = require('get-tz-ids');
 const gzipSize = require('gzip-size');

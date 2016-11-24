@@ -5,10 +5,10 @@
   "repository": "shinnn/tz-ids",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
-    "build": "node --strong_mode build.js",
+    "build": "node build.js",
     "pretest": "eslint --fix --config @shinnn/node --global window --ignore-path .gitignore . && npm run-script build --silent",
-    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec",
-    "optim": "node --strong_mode optimization-experiment.js"
+    "test": "node --throw-deprecation --track-heap-objects test.js | tap-spec",
+    "optim": "node optimization-experiment.js"
   },
   "license": "Unlicense",
   "jsnext:main": "index.jsnext.js",

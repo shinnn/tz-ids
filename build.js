@@ -1,4 +1,4 @@
-'use strong';
+'use strict';
 
 const {cyan, green} = require('chalk');
 const getTzIds = require('get-tz-ids');
