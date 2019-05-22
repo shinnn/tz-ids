@@ -1,13 +1,11 @@
 # tz-ids
 
-[![NPM version](https://img.shields.io/npm/v/tz-ids.svg)](https://www.npmjs.com/package/tz-ids)
-[![Bower version](https://img.shields.io/bower/v/tz-ids.svg)](https://github.com/shinnn/tz-ids/releases)
-[![Build Status](https://travis-ci.org/shinnn/tz-ids.svg?branch=master)](https://travis-ci.org/shinnn/tz-ids)
-[![devDependency Status](https://david-dm.org/shinnn/tz-ids/dev-status.svg)](https://david-dm.org/shinnn/tz-ids#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/tz-ids.svg)](https://www.npmjs.com/package/tz-ids)
+[![Build Status](https://travis-ci.com/shinnn/tz-ids.svg?branch=master)](https://travis-ci.com/shinnn/tz-ids)
 
 An array of [time zone IDs](https://en.wikipedia.org/wiki/Tz_database#Names_of_time_zones)
 
-```js
+```javascript
 [
   'Africa/Abidjan',
   'Africa/Accra',
@@ -32,35 +30,21 @@ An array of [time zone IDs](https://en.wikipedia.org/wiki/Tz_database#Names_of_t
 
 ## Installation
 
-### Package managers
-
-#### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install tz-ids
 ```
 
-#### [bower](https://bower.io/)
-
-```
-bower install tz-ids
-```
-
-### Standalone
-
-[Download the script file directly.](https://raw.githubusercontent.com/shinnn/tz-ids/master/browser.js)
-
 ## API
-
-### tzIds
-
-Type: `Array`  
 
 ```javascript
 import tzIds from 'tz-ids';
-
-Array.isArray(tzIds); //=> true
 ```
+
+### tzIds
+
+Type: `string[]`  
 
 IDs are sorted in alphabetical order.
 
