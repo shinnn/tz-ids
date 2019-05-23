@@ -1,9 +1,9 @@
 {
   "name": "tz-ids",
-  "version": "1.0.0",
+  "version": "2.0.0-0",
   "description": "An array of time zone IDs",
   "repository": "shinnn/tz-ids",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "author": "Watanabe Shinnosuke (https://github.com/shinnn)",
   "scripts": {
     "build": "node build.js",
     "pretest": "eslint --fix --config @shinnn/node --global window --ignore-path .gitignore . && npm run-script build --silent",
