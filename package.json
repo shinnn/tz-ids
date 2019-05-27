@@ -2,15 +2,15 @@
   "name": "tz-ids",
   "version": "2.0.0-1",
   "description": "An array of time zone IDs",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "repository": "shinnn/tz-ids",
-  "author": "Watanabe Shinnosuke (https://github.com/shinnn)",
+  "license": "0BSD",
   "scripts": {
     "build": "node build.js",
     "pretest": "eslint --fix --config @shinnn/node --global window --ignore-path .gitignore . && npm run-script build --silent",
     "test": "node --throw-deprecation --track-heap-objects test.js | tap-spec",
     "optim": "node optimization-experiment.js"
   },
-  "license": "Unlicense",
   "jsnext:main": "index.jsnext.js",
   "files": [
     "index.json",

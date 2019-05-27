@@ -50,4 +50,4 @@ IDs are sorted in alphabetical order.
 
 ## License
 
-[The Unlicense](./LICENSE)
+[BSD Zero Clause License](./LICENSE) © 2019 Watanabe Shinnosuke
