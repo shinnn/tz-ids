@@ -1,6 +1,6 @@
 {
   "name": "tz-ids",
-  "version": "2.0.0-1",
+  "version": "2.0.0-2",
   "description": "An array of time zone IDs",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "repository": "shinnn/tz-ids",
