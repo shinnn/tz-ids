@@ -1,7 +1,7 @@
 # tz-ids
 
 [![npm version](https://img.shields.io/npm/v/tz-ids.svg)](https://www.npmjs.com/package/tz-ids)
-[![Build Status](https://travis-ci.com/shinnn/tz-ids.svg?branch=master)](https://travis-ci.com/shinnn/tz-ids)
+[![Github Actions](https://action-badges.now.sh/shinnn/tz-ids)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/shinnn/tz-ids)
 
 An array of [time zone IDs](https://en.wikipedia.org/wiki/Tz_database#Names_of_time_zones)
 
